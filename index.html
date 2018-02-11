@@ -1,0 +1,58 @@
+<!-- Hangman-Game -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hangman-Game</title>
+</head>
+<body>
+  <div id="game">
+
+    <!-- User input instructions -->
+    <p>Press any letter in the alphabet to complete the puzzle.</p>
+
+  </div>
+
+  <!-- User options -->
+  <script type="text/javascript">
+    var options = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","x","y","z"];
+    var puzzles = ["horse", "cat", "dog", "apartment"]
+
+  // Track wins/losses - Restart counter after 5 wins or losses
+    var wins = 0;
+    var losses = 0;
+
+    document.onkeyup = function(){
+      var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
+
+      document.getElementById(userGuess);
+
+      // Compare userGuess to letters in puzzle
+
+      // If userGuess = Letter in Puzzle
+      if(userGuess === "a letter in the puzzle");
+
+      // If correct show userGuess placement in puzzle
+      document.getElementById(userGuess);
+      
+      // If userGuess is not a letter in puzzle.
+      alert("Please select another letter.")
+
+      // If user completes puzzle
+      wins++;
+      ("Wins: " + wins)
+
+
+    }
+  
+  
+  
+  
+  </script>
+
+
+</body>
+</html>
