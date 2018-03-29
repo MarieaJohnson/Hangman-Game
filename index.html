@@ -2,31 +2,35 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
   <title>Hangman-Game</title>
 </head>
 
 <body>
-  
-    <div id="game">
-    <div id="display">
-    <div id="buttons">
-    <button id="new-game"></button>
+<div class="bg">
+  <div id="game"></div>
+    <div id="display"></div>
+    <div>
+       <button id="new-game">New Game</button>
 
-    <!-- User input instructions -->
-    <p>Press any letter in the alphabet to complete the puzzle.</p>
+        <!-- User input instructions -->
+        <p>Press any letter in the alphabet to complete the puzzle.</p>
 
-      <div id="puzzleGuess"></div>
- 
-   </div>
-   
-  <script src="assets/javascript/game.js"></script>
+        <div id="puzzleGuess"></div>
+      <div id="buttons"></div>
+    </div>
+</div>
+      <script src="assets/javascript/game.js">
+      </script>
 
 </body>
+
 </html>

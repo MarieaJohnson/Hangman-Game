@@ -1,12 +1,55 @@
 /* Hangman-Game */
 
+body html {
+   height: 100%;
+   margin: 0; 
+}
 
-  .letter {width: 30px; height:30px; border-style: solid; padding: 2px; float: left; margin: 2px; }
+.bg { 
+    /* The image used */
+     background-image: url("../images/gallows-with-desert-background-vector.jpg");
 
-  .letter-button-color {color: black; }
+    /* Full height */
+    height: 100%; 
 
-  #newPuzzle {margin-top: 78px; height: 500px; width: 200px; margin-left: 60px; }
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* 
+div{
+  
+} */
 
-  #buttons { padding-top: 60px; }
+  .letter {
+    width: 30px; 
+    height:30px; 
+    border-style: solid; 
+    padding: 2px; 
+    float: left; 
+    margin: 2px; 
+  }
 
-  #new-game { margin-left: 20px; font-size: 25px; color: black; border-style: solid; width: 100; }
+  .letter-button-color {
+    color: black;
+  }
+
+  #newPuzzle {
+    margin-top: 78px;
+    height: 500px;
+    width: 200px;
+    margin-left: 60px;
+  }
+
+  #buttons {
+    padding-top: 60px; 
+  }
+
+  #new-game { 
+    margin-left: 20px;
+    font-size: 25px;
+    color: black;
+    border-style: solid;
+    width: 100;
+  }
